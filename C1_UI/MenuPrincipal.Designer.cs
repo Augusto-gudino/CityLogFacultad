@@ -46,13 +46,13 @@
             this.btnMostrarPedidoSnacks = new System.Windows.Forms.Button();
             this.btnBuscarPedidoSnacks = new System.Windows.Forms.Button();
             this.btnCrearPedidoSnacks = new System.Windows.Forms.Button();
-            this.panelSubmenuCervezas = new System.Windows.Forms.Panel();
-            this.btnEliminarPedidoCerveza = new System.Windows.Forms.Button();
             this.panelSubmenuGolosinas = new System.Windows.Forms.Panel();
             this.btnEliminarPedidoGolosinas = new System.Windows.Forms.Button();
             this.btnMostrarPedidoGolosinas = new System.Windows.Forms.Button();
             this.btnBuscarPedidoGolosinas = new System.Windows.Forms.Button();
             this.btnCrearPedidoGolosinas = new System.Windows.Forms.Button();
+            this.panelSubmenuCervezas = new System.Windows.Forms.Panel();
+            this.btnEliminarPedidoCerveza = new System.Windows.Forms.Button();
             this.btnMostrarPedidoCerveza = new System.Windows.Forms.Button();
             this.btnBuscarPedidoCerveza = new System.Windows.Forms.Button();
             this.btnCrearPedidoCerveza = new System.Windows.Forms.Button();
@@ -70,8 +70,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxInicio)).BeginInit();
             this.panelContenedorPrincipal.SuspendLayout();
             this.panelSubmenuSnacks.SuspendLayout();
-            this.panelSubmenuCervezas.SuspendLayout();
             this.panelSubmenuGolosinas.SuspendLayout();
+            this.panelSubmenuCervezas.SuspendLayout();
             this.panelSubmenuBebidasSinAlcohol.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -229,6 +229,7 @@
             this.pictureBoxInicio.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBoxInicio.TabIndex = 2;
             this.pictureBoxInicio.TabStop = false;
+            this.pictureBoxInicio.Click += new System.EventHandler(this.pictureBoxInicio_Click);
             // 
             // panelContenedorPrincipal
             // 
@@ -251,7 +252,7 @@
             this.panelSubmenuSnacks.Controls.Add(this.btnCrearPedidoSnacks);
             this.panelSubmenuSnacks.Location = new System.Drawing.Point(3, 442);
             this.panelSubmenuSnacks.Name = "panelSubmenuSnacks";
-            this.panelSubmenuSnacks.Size = new System.Drawing.Size(361, 72);
+            this.panelSubmenuSnacks.Size = new System.Drawing.Size(358, 72);
             this.panelSubmenuSnacks.TabIndex = 5;
             this.panelSubmenuSnacks.Visible = false;
             // 
@@ -307,31 +308,6 @@
             this.btnCrearPedidoSnacks.Text = "Crear pedido";
             this.btnCrearPedidoSnacks.UseVisualStyleBackColor = true;
             // 
-            // panelSubmenuCervezas
-            // 
-            this.panelSubmenuCervezas.Controls.Add(this.btnEliminarPedidoCerveza);
-            this.panelSubmenuCervezas.Controls.Add(this.btnMostrarPedidoCerveza);
-            this.panelSubmenuCervezas.Controls.Add(this.btnBuscarPedidoCerveza);
-            this.panelSubmenuCervezas.Controls.Add(this.btnCrearPedidoCerveza);
-            this.panelSubmenuCervezas.Location = new System.Drawing.Point(3, 287);
-            this.panelSubmenuCervezas.Name = "panelSubmenuCervezas";
-            this.panelSubmenuCervezas.Size = new System.Drawing.Size(359, 73);
-            this.panelSubmenuCervezas.TabIndex = 3;
-            this.panelSubmenuCervezas.Visible = false;
-            // 
-            // btnEliminarPedidoCerveza
-            // 
-            this.btnEliminarPedidoCerveza.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnEliminarPedidoCerveza.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnEliminarPedidoCerveza.Image = global::C1_UI.Properties.Resources.eliminar;
-            this.btnEliminarPedidoCerveza.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnEliminarPedidoCerveza.Location = new System.Drawing.Point(182, 38);
-            this.btnEliminarPedidoCerveza.Name = "btnEliminarPedidoCerveza";
-            this.btnEliminarPedidoCerveza.Size = new System.Drawing.Size(176, 32);
-            this.btnEliminarPedidoCerveza.TabIndex = 3;
-            this.btnEliminarPedidoCerveza.Text = "Eliminar pedido";
-            this.btnEliminarPedidoCerveza.UseVisualStyleBackColor = true;
-            // 
             // panelSubmenuGolosinas
             // 
             this.panelSubmenuGolosinas.Controls.Add(this.btnEliminarPedidoGolosinas);
@@ -340,7 +316,7 @@
             this.panelSubmenuGolosinas.Controls.Add(this.btnCrearPedidoGolosinas);
             this.panelSubmenuGolosinas.Location = new System.Drawing.Point(3, 366);
             this.panelSubmenuGolosinas.Name = "panelSubmenuGolosinas";
-            this.panelSubmenuGolosinas.Size = new System.Drawing.Size(361, 74);
+            this.panelSubmenuGolosinas.Size = new System.Drawing.Size(358, 74);
             this.panelSubmenuGolosinas.TabIndex = 4;
             this.panelSubmenuGolosinas.Visible = false;
             // 
@@ -396,6 +372,31 @@
             this.btnCrearPedidoGolosinas.Text = "Crear pedido";
             this.btnCrearPedidoGolosinas.UseVisualStyleBackColor = true;
             // 
+            // panelSubmenuCervezas
+            // 
+            this.panelSubmenuCervezas.Controls.Add(this.btnEliminarPedidoCerveza);
+            this.panelSubmenuCervezas.Controls.Add(this.btnMostrarPedidoCerveza);
+            this.panelSubmenuCervezas.Controls.Add(this.btnBuscarPedidoCerveza);
+            this.panelSubmenuCervezas.Controls.Add(this.btnCrearPedidoCerveza);
+            this.panelSubmenuCervezas.Location = new System.Drawing.Point(3, 287);
+            this.panelSubmenuCervezas.Name = "panelSubmenuCervezas";
+            this.panelSubmenuCervezas.Size = new System.Drawing.Size(358, 73);
+            this.panelSubmenuCervezas.TabIndex = 3;
+            this.panelSubmenuCervezas.Visible = false;
+            // 
+            // btnEliminarPedidoCerveza
+            // 
+            this.btnEliminarPedidoCerveza.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnEliminarPedidoCerveza.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnEliminarPedidoCerveza.Image = global::C1_UI.Properties.Resources.eliminar;
+            this.btnEliminarPedidoCerveza.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnEliminarPedidoCerveza.Location = new System.Drawing.Point(182, 38);
+            this.btnEliminarPedidoCerveza.Name = "btnEliminarPedidoCerveza";
+            this.btnEliminarPedidoCerveza.Size = new System.Drawing.Size(176, 32);
+            this.btnEliminarPedidoCerveza.TabIndex = 3;
+            this.btnEliminarPedidoCerveza.Text = "Eliminar pedido";
+            this.btnEliminarPedidoCerveza.UseVisualStyleBackColor = true;
+            // 
             // btnMostrarPedidoCerveza
             // 
             this.btnMostrarPedidoCerveza.Cursor = System.Windows.Forms.Cursors.Hand;
@@ -443,7 +444,7 @@
             this.panelSubmenuBebidasSinAlcohol.Controls.Add(this.btnCrearPedidoBebidaSinAlcohol);
             this.panelSubmenuBebidasSinAlcohol.Location = new System.Drawing.Point(3, 209);
             this.panelSubmenuBebidasSinAlcohol.Name = "panelSubmenuBebidasSinAlcohol";
-            this.panelSubmenuBebidasSinAlcohol.Size = new System.Drawing.Size(361, 72);
+            this.panelSubmenuBebidasSinAlcohol.Size = new System.Drawing.Size(358, 72);
             this.panelSubmenuBebidasSinAlcohol.TabIndex = 2;
             this.panelSubmenuBebidasSinAlcohol.Visible = false;
             // 
@@ -520,8 +521,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxInicio)).EndInit();
             this.panelContenedorPrincipal.ResumeLayout(false);
             this.panelSubmenuSnacks.ResumeLayout(false);
-            this.panelSubmenuCervezas.ResumeLayout(false);
             this.panelSubmenuGolosinas.ResumeLayout(false);
+            this.panelSubmenuCervezas.ResumeLayout(false);
             this.panelSubmenuBebidasSinAlcohol.ResumeLayout(false);
             this.ResumeLayout(false);
 

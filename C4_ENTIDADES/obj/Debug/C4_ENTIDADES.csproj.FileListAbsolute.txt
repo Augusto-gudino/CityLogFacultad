@@ -1,0 +1,6 @@
+C:\Users\gudi1\OneDrive\Desktop\CityLog\C4_ENTIDADES\bin\Debug\C4_ENTIDADES.dll
+C:\Users\gudi1\OneDrive\Desktop\CityLog\C4_ENTIDADES\bin\Debug\C4_ENTIDADES.pdb
+C:\Users\gudi1\OneDrive\Desktop\CityLog\C4_ENTIDADES\obj\Debug\C4_ENTIDADES.csproj.AssemblyReference.cache
+C:\Users\gudi1\OneDrive\Desktop\CityLog\C4_ENTIDADES\obj\Debug\C4_ENTIDADES.csproj.CoreCompileInputs.cache
+C:\Users\gudi1\OneDrive\Desktop\CityLog\C4_ENTIDADES\obj\Debug\C4_ENTIDADES.dll
+C:\Users\gudi1\OneDrive\Desktop\CityLog\C4_ENTIDADES\obj\Debug\C4_ENTIDADES.pdb
