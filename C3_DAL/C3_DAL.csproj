@@ -44,5 +44,11 @@
     <Compile Include="Conexion.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\C4_ENTIDADES\C4_ENTIDADES.csproj">
+      <Project>{3ee4db0d-b0ed-4ea6-b9d5-6c213f671d94}</Project>
+      <Name>C4_ENTIDADES</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

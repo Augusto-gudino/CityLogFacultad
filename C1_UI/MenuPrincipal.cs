@@ -50,7 +50,11 @@ namespace C1_UI
 
         private void btnConoceNuestrosProveedores_Click(object sender, EventArgs e)
         {
-            panelSubmenuBebidasSinAlcohol.Visible = false; 
+            panelSubmenuBebidasSinAlcohol.Visible = false;
+            panelSubmenuCervezas.Visible = false;
+            panelSubmenuGolosinas.Visible = false;
+            panelSubmenuSnacks.Visible = false;
+
             AbrirFormEnPanel(new Proveedores());
         }
 
@@ -75,6 +79,12 @@ namespace C1_UI
         {
             this.WindowState = FormWindowState.Minimized; //Minimiza la ventana
         }
+
+        private void pictureBoxInicio_Click(object sender, EventArgs e)
+        {
+            
+        }
+
     }
 
 

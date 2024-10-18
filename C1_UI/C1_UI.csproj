@@ -148,5 +148,39 @@
   <ItemGroup>
     <None Include="Resources\eliminar.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\vintage-coca-cola-logo-Photoroom.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\arcor-logo-Photoroom.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logo-Corona-Photoroom.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Stella - loog-Photoroom.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lays-logo-Photoroom.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\7up-logo-Photoroom.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\C2_BLL\C2_BLL.csproj">
+      <Project>{ef86cf6e-24d3-4fb6-829c-f35bde4d5488}</Project>
+      <Name>C2_BLL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\C4_ENTIDADES\C4_ENTIDADES.csproj">
+      <Project>{3ee4db0d-b0ed-4ea6-b9d5-6c213f671d94}</Project>
+      <Name>C4_ENTIDADES</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cocacola-hielo-Photoroom.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Slogan-sprite.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -1,0 +1,11 @@
+C:\Users\gudi1\OneDrive\Desktop\CityLog\C2_BLL\bin\Debug\C2_BLL.dll
+C:\Users\gudi1\OneDrive\Desktop\CityLog\C2_BLL\bin\Debug\C2_BLL.pdb
+C:\Users\gudi1\OneDrive\Desktop\CityLog\C2_BLL\bin\Debug\C3_DAL.dll
+C:\Users\gudi1\OneDrive\Desktop\CityLog\C2_BLL\bin\Debug\C4_ENTIDADES.dll
+C:\Users\gudi1\OneDrive\Desktop\CityLog\C2_BLL\bin\Debug\C3_DAL.pdb
+C:\Users\gudi1\OneDrive\Desktop\CityLog\C2_BLL\bin\Debug\C4_ENTIDADES.pdb
+C:\Users\gudi1\OneDrive\Desktop\CityLog\C2_BLL\obj\Debug\C2_BLL.csproj.AssemblyReference.cache
+C:\Users\gudi1\OneDrive\Desktop\CityLog\C2_BLL\obj\Debug\C2_BLL.csproj.CoreCompileInputs.cache
+C:\Users\gudi1\OneDrive\Desktop\CityLog\C2_BLL\obj\Debug\C2_BLL.csproj.Up2Date
+C:\Users\gudi1\OneDrive\Desktop\CityLog\C2_BLL\obj\Debug\C2_BLL.dll
+C:\Users\gudi1\OneDrive\Desktop\CityLog\C2_BLL\obj\Debug\C2_BLL.pdb
